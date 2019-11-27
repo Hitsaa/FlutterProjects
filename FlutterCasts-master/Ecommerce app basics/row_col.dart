@@ -1,0 +1,17 @@
+import 'package:flutter/material.dart';
+
+void main(){
+  runApp(
+    new MaterialApp(
+      home: new Center(
+      child: Column(
+      children: <Widget>[
+        Text('hello one'),
+        Text('hello two'),
+        Text('hello three')
+          ],
+        ),
+      ),
+    )
+  );
+}
